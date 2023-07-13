@@ -1,0 +1,265 @@
+.head-block .head-shop{
+    width: 100%;
+    height: 330px;
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: center;
+}
+
+.head-font{ 
+    text-align: center; 
+    height: 80px; 
+    padding-top: 25px; 
+    margin-top: 15px;
+}
+
+.head-font p {
+    font-size: 30px; 
+}
+
+div .head-shop{ 
+    background-color: #ffffff;
+}
+
+.head-shop{ 
+    height: 415px; 
+    width: 980px;
+}
+
+.head-product{
+    width: 211px; 
+    height: 296px; 
+    text-align: center; 
+    float: left; 
+    margin-right: 10px;
+}
+
+.head-box-jpg{ 
+    width: 215px; 
+    height: 235px;
+}
+
+.head-box-font{
+    width: 211px; 
+    height: 84px;
+}
+
+.head-product .head-box-font{ 
+    text-align: left;
+}
+
+.box-name{
+    font-size: 16px; 
+    font: bold;
+}
+
+.head-box-name{
+    padding-top: 15px; 
+    font-size: 18px;
+}
+
+.head-box-price{
+    padding-top: 10px;
+}
+
+.head-block .head-product > .head-box-jpg { 
+    position: relative;
+}
+
+.head-block .head-product > .head-box-jpg > img { 
+    width: 100%; 
+    height: 100%;
+}
+
+.head-block .head-product > .head-box-jpg > .img-hide { 
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    opacity: 0;
+}
+
+.head-block .head-product > .head-box-jpg > .img-hide:hover { 
+    opacity: 1;
+}
+
+.Main-Content{
+    width: 40%; 
+    height: auto;
+}
+
+.Content-right{ 
+    width: 50%; 
+    background-color: #ffffff;
+    padding: 1% 2%;
+}
+
+.Content-center{ 
+    width: 100%; 
+    height: 525px;
+}
+.Content {
+    padding: 10% 5% 0% 8%;
+}
+
+.Content{ 
+    width: 100%; 
+    height: auto; 
+    display: flex; justify-content: space-evenly; 
+    align-items: center; 
+    background-color: #ffffff;
+}
+
+.Content-right .Content-Top{
+    height: 70px;
+}
+
+.Content-right .Content-Center{
+    height: 40px;
+}
+
+.Content-right .Content-Size{
+    height: 75px; 
+    padding-top: 5px;
+}
+
+.Content-Top{ 
+    border-bottom: 1px dashed #dfe0e1;
+}
+
+.Content_Top_O{ 
+    font-size: 23px; 
+    margin: 13px 20px;    
+}
+
+.Content_Top_Code_T{ 
+    margin: 13px 20px; 
+    font-size: 14px; 
+}
+
+.price{
+    font-size: 22px; 
+    margin: 13px 20px; 
+}
+
+.Content-Center{ 
+    border-bottom: 1px dashed #dfe0e1;
+}
+
+.Content_Center_Size_O{ 
+    float: left; 
+    text-align: center; 
+    margin: 16px 6px 0px 24px;
+}
+
+.Content_Center_Size_O input{
+    width: 64px; 
+    height: 40px;
+}
+
+.Content-Button{
+    height: 80px; 
+    margin: 15px 25px;
+    }
+
+.Content-Button .Content_Float_add{ 
+    float: left; 
+    background: #f5f5f5; 
+    border: solid 1px #f1f1f1; 
+    cursor: pointer; 
+    font-weight: 600; 
+    font-size: 16px;
+    outline: none; 
+    height: 35px;
+    width: 52px;
+    text-align: center;
+    border-radius: 0;
+}
+
+.Content-Button .Content_Float_minus{ 
+    background: #fff; 
+    font-weight: 600; 
+    height: 35px; 
+    padding: 0; 
+    text-align: center; 
+    width: 70px; 
+    border: 1px solid #f5f5f5; 
+    border-left: none; 
+    border-right: none; 
+    border-radius: 1px; 
+    float: left;
+}
+
+.Content_Center_Color_O{
+    cursor: pointer; 
+    width: 440px; 
+    height: 52px; 
+    text-align: center; 
+    font-weight: bold; 
+    font-size: 15px;
+    margin-top: 20px;
+
+}
+.rte img {
+    max-width: 85%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.Content_Current_0{
+    margin: 40px 26px;
+}
+
+.Content_Current_0 p{ 
+    display: block;
+    font-size: 16px;
+    margin: 5px 0;
+    margin-bottom: 15px;
+    color: #707070;
+}
+
+.Content_Current_2{
+    margin-top: 10px;
+}
+
+.Content-Size .Content_Center_Size_O input:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.Content-Size .Content_Center_Size_O .fist:first-child{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.Content-Button button:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.Content-left{ 
+    width: 10%; 
+    height: auto;
+}
+
+.Content .laptop-list-img img {
+    width: 90%;
+    height: auto;
+}
+
+.Content-Current {
+    height: auto;
+}
+img#Main-Content-Adidas {
+    max-width: 100%;
+}
+
+.laptop-list-img {
+    width: 90%;
+}
+.head_icon_1{
+    text-align: center;
+}
+.head_icon_1 a{
+    text-align: center;
+    color: #000000;
+}
